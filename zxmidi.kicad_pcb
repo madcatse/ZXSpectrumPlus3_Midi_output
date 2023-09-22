@@ -188,10 +188,10 @@
       (net 12 "Net-(J2-Pad5)") (pintype "passive") (tstamp 62721959-4b2f-4356-8299-e67740d5648b))
     (pad "6" thru_hole circle (at -5 7 90) (size 2.5 2.5) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp af890097-e32e-4108-8084-c7da2b11e18e))
     (pad "6" thru_hole circle (at 5 7 90) (size 2.5 2.5) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp 17838f5e-2e79-4d6d-af0a-da9f23aa9a24))
-    (model "${MYMODELS}/din-5.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/Lib/DIN5_PCB_DELTRON_671-0500.stp"
+      (offset (xyz 0 -9.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 

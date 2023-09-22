@@ -425,10 +425,10 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "zxmidi.emn",
       "netlist": "zxmidi.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "zxmidi.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
