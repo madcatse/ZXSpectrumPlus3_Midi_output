@@ -580,6 +580,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b374ce36-598c-445e-a969-631844cbaac7))
   (gr_line (start 91.9132 55.7784) (end 40.8366 55.7784)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d7779b5a-0650-48b8-82ed-93f2d8c475c8))
+  (gr_text "ZX Spectrum +3 \nMIDI Output Convertor\nVer 1.0, by MadCat\nhttps://github.com/madcatse/\n/ZXSpectrumPlus3_Midi_output\nt.me/madcatse" (at 84.6074 44.8818 270) (layer "B.SilkS") (tstamp f9571377-fddc-4181-abf0-3cf1e70595e0)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
 
   (via (at 66.374899 35.9918) (size 3.2) (drill 2.6) (layers "F.Cu" "B.Cu") (net 0) (tstamp 7b156f46-ea97-4e3b-949f-a333421337f3))
   (via (at 66.374899 53.8734) (size 3.2) (drill 2.6) (layers "F.Cu" "B.Cu") (net 0) (tstamp a212a2fa-377b-47ad-997b-bc92c70f818c))
