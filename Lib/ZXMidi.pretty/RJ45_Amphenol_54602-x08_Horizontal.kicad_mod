@@ -71,9 +71,9 @@
   (pad "12" thru_hole circle (at 0.66 11.24) (size 1.89 1.89) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 515a71aa-59d6-48fa-8bd5-927519cdaf1d))
   (pad "13" thru_hole circle (at 8.23 11.24) (size 1.89 1.89) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp afe36ac0-3c29-4321-be09-91914e83a624))
   (pad "14" thru_hole circle (at 10.77 11.24) (size 1.89 1.89) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 03a7cc42-2b7c-4016-a3f1-00716a32a0e8))
-  (model "${KIPRJMOD}/Lib/54602-908LF--3DModel-STEP-533217.STEP"
-    (offset (xyz 4.5 3.5 10.5))
+  (model "${KIPRJMOD}/Lib/HANRUN HR911105A_3.stp"
+    (offset (xyz 4.5 -6.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )
