@@ -1,0 +1,179 @@
+{
+  "source_sha256": "03ec34cbbc2b22eb3bd147c69328537b09737d5115316a40dff04488a7d0f534",
+  "parameters_mm": {
+    "wall": 1.8,
+    "pcb_side_gap": 0.35,
+    "roof_gap": 0.6,
+    "pin_gap": 1.0,
+    "pcb_top_gap": 0.2,
+    "real_pcb_hole_diameter": 2.6,
+    "connector_gap": 0.4,
+    "din_window_diameter": 20.4,
+    "screw_bore_diameter": 2.35,
+    "screw_length": 20.0,
+    "head_pocket_diameter": 4.5,
+    "head_pocket_depth": 2.2,
+    "boss_radius": 3.0,
+    "neck_inner_y": 7.25,
+    "nut_pocket_af": 4.35,
+    "nut_pocket_height": 1.95,
+    "nut_pocket_z": 14.0,
+    "lip_width": 0.8,
+    "lip_height": 1.2,
+    "lip_clearance": 0.25,
+    "split_z": 11.595,
+    "stl_linear_tolerance": 0.025
+  },
+  "case_dimensions_mm": {
+    "xmin": 36.7622,
+    "xmax": 95.0632,
+    "ymin": -12.9958,
+    "ymax": 12.9958,
+    "zmin": -5.205,
+    "zmax": 24.995,
+    "xlen": 58.301,
+    "ylen": 25.9916,
+    "zlen": 30.2
+  },
+  "pcb_dimensions_mm": {
+    "xmin": 39.8366,
+    "xmax": 92.9132,
+    "ymin": -10.8458,
+    "ymax": 10.8458,
+    "zmin": 0.0,
+    "zmax": 1.51,
+    "xlen": 53.0766,
+    "ylen": 21.6916,
+    "zlen": 1.51
+  },
+  "mounting_centers_original_step_mm": [
+    [
+      66.374899,
+      -53.8734
+    ],
+    [
+      66.374899,
+      -35.9918
+    ]
+  ],
+  "mounting_spacing_mm": 17.8816,
+  "source_holes_diameter_mm": 2.5,
+  "physical_holes_diameter_mm": 2.6,
+  "neck_to_components_mm": [
+    0.6249,
+    0.2533
+  ],
+  "parts": {
+    "case_bottom": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "volume_mm3": 6575.803,
+      "print_bounds_mm": {
+        "xmin": -0.0,
+        "xmax": 58.301,
+        "ymin": 0.0,
+        "ymax": 25.9916,
+        "zmin": -0.0,
+        "zmax": 18.0,
+        "xlen": 58.301,
+        "ylen": 25.9916,
+        "zlen": 18.0
+      },
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_meshes": 1,
+      "triangles": 5012,
+      "degenerate_triangles_removed": 0
+    },
+    "case_top": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "volume_mm3": 6435.844,
+      "print_bounds_mm": {
+        "xmin": -0.0,
+        "xmax": 58.301,
+        "ymin": -0.0,
+        "ymax": 25.9916,
+        "zmin": 0.0,
+        "zmax": 23.285,
+        "xlen": 58.301,
+        "ylen": 25.9916,
+        "zlen": 23.285
+      },
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_meshes": 1,
+      "triangles": 5652,
+      "degenerate_triangles_removed": 0
+    }
+  },
+  "collision_volumes_mm3": {
+    "case_bottom_board": 0.0,
+    "case_bottom_insertion_max": 0.0,
+    "case_top_board": 0.0,
+    "case_top_insertion_max": 0.0,
+    "halves_closing_path_max": 0.0,
+    "screw_1": 0.0,
+    "nut_1": 0.0,
+    "nut_1_insertion_max": 0.0,
+    "screw_2": 0.0,
+    "nut_2": 0.0,
+    "nut_2_insertion_max": 0.0
+  },
+  "hardware": {
+    "screws": "2 x M2 x 20, socket head diameter <= 4.0 mm, height <= 2.0 mm",
+    "nuts": "2 x M2 standard hex, AF 4.0 mm, thickness 1.6 mm"
+  },
+  "limitations": [
+    "Physical print and real cable plugs not tested",
+    "Actual solder/lead envelope must fit the 3.405 mm space below PCB",
+    "Check nut pocket and hole fit for the actual printer"
+  ],
+  "screw_tip_z_mm": 16.995,
+  "screw_extension_past_nut_mm": 1.245,
+  "step_roundtrip_solids": 2,
+  "fit_check_parts": {
+    "fit_bottom": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "volume_mm3": 886.604,
+      "print_bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 8.0,
+        "ymin": 0.0,
+        "ymax": 25.9916,
+        "zmin": -0.0,
+        "zmax": 16.8,
+        "xlen": 8.0,
+        "ylen": 25.9916,
+        "zlen": 16.8
+      },
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_meshes": 1,
+      "triangles": 2844,
+      "degenerate_triangles_removed": 0
+    },
+    "fit_top": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "volume_mm3": 1585.625,
+      "print_bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 8.0,
+        "ymin": 0.0,
+        "ymax": 25.9916,
+        "zmin": -0.0,
+        "zmax": 23.285,
+        "xlen": 8.0,
+        "ylen": 25.9916,
+        "zlen": 23.285
+      },
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_meshes": 1,
+      "triangles": 3548,
+      "degenerate_triangles_removed": 0
+    }
+  }
+}
